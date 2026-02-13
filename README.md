@@ -67,6 +67,17 @@ npm run dev
 
 Open http://localhost:5173 — ingest text, view the knowledge graph, run graph-powered queries.
 
+## 📦 Example
+
+A minimal runnable example is in the `example/` folder:
+
+```bash
+cd example
+python example.py
+```
+
+It builds a tiny knowledge graph and traverses it to gather context for a multi-hop query.
+
 ## 📖 What You'll Learn
 
 1. How to extract entities and relations from unstructured text
